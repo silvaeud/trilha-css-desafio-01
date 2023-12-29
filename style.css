@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&display=swap");
+
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+
+/* Trecho do HEADER */
+
+.banner-content {
+    background-color: black;
+    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)),  url(./assets/images/banner.png);
+    opacity: 0.9;
+    text-align: center;
+    border-bottom: 1px solid #33A8DB;
+}
+     
+.logo > img{
+    margin: 56px 0 16px;
+    background-color: rgba(0, 0, 0, .2);
+    border-radius: 50%;
+    width: 268px;
+    height: 268px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 900;
+  background-image: linear-gradient(to bottom, #33a8db, #1472b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+
+h1 + p {
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+  width: 520px;
+  margin: 0 auto;
+}
+
+.banner-content > button {
+  font-size: 16px;
+  font-weight: 900;
+  border: 2px solid;
+  padding: 19px 91px;
+  color: #31a8dd;
+  background: none;
+   text-transform: uppercase ;
+  margin: 24px 0 75px;
+}
+
+/* Trecho da SECTION conteudo */
+
+#course-content{
+    background-color: black;
+    color: white;
+        padding: 118px 0 90px;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+  font-weight: 700;
+  color:#33A8DB ;
+  text-transform: uppercase;
+}
+
+h2 + p{
+    width: 792px;
+    margin: 24px auto;
+}
+
+.module{
+    border: 1px solid #33A8DB;
+    background-color: #252525;
+    border-radius: 30px;
+    margin: 0 auto 24px;
+    width:535px;
+    height: 51px;
+    display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
+    
+}
+
+.module > span{
+    color: #33A8DB;
+    padding-right: 5px;
+}
+
+/* Trecho da SECTION transforme */
+
+#transform-world{
+    background-image: url(./assets/images/woman-code.png);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 1px solid #33A8DB80;
+  border-bottom: 1px solid #33A8DB80;
+    height: 560px;
+    padding: 200px;
+}
+
+#transform-world > p{
+font-weight: 900;
+font-size: 40px;
+width: 244px;
+text-transform: lowercase;
+text-shadow: 3px 2px #33A8DB;
+color: white;
+}
+
+/* Trecho da SECTION evolua */
+
+#professional-challenges{
+    text-align: center;
+    background-color: black;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#professional-challenges > h2{
+    width: 746px;
+    padding: 76px 0 32px;
+    margin: 0 auto;
+}
+
+#professional-challenges > p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 40px 0 91px;
+    width: 792px;
+    margin: 0 auto;
+}
+
+/* Trecho do FOOTER */
+
+footer{
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    background-color: black;
+    text-align: center;
+}
+
+.dio-logo{
+    padding: 59px 0 10px;
+    width: 310px;
+}
+
+footer > p {
+    color: white;
+    padding-bottom: 38px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+a {
+    font-weight: 700;
+    color: #33A8DB;
+}
